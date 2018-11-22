@@ -1,5 +1,6 @@
 # pytco
-Python tail call optimization by means of trampoline.
+Python tail call optimization by means of trampoline. 
+Got the idea from https://github.com/0x65/trampoline. 
 The function `tail_rec` converts a recursive function to an iterative equivalent at runtime.
 ```python
 from tail_rec import tail_rec
